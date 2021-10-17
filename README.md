@@ -8,7 +8,7 @@ This is very much WIP, I will add more documentation soon, to learn about what t
 
 [Discuss Tiles on Discord](https://discord.gg/RCGcgbQNZK)
 
-![LogicDeck Layout](layout.png)
+![Tile Layout](Layout.png)
 
-![LogicDeck Schematic](schematic.png)
+![Tile Schematic](schematic.png)
 
