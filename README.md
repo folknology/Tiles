@@ -8,6 +8,15 @@ This is very much WIP, I will add more documentation soon, to learn about what t
 
 [Discuss Tiles on Discord](https://discord.gg/RCGcgbQNZK)
 
+## Each Tile Features:
+* 12 General purpose digiatl IO
+* 2 mixed signal IO
+* 1 I2C interface
+* 1 Dedicated Tile Request signal
+* 2 shared Control signals reset and enable
+* IO Logic power and +5v along with high power  +/-V
+
+
 ![Tile Layout](Layout.png)
 
 ![Tile Schematic](schematic.png)
