@@ -9,8 +9,8 @@ This is very much WIP, I will add more documentation soon, to learn about what t
 [Discuss Tiles on Discord](https://discord.gg/RCGcgbQNZK)
 
 ## Each Tile Features:
-* 12 General purpose digiatl IO
-* 2 mixed signal IO
+* 12 General purpose digital IO
+* 3 mixed signal IO
 * 1 I2C interface
 * 1 Dedicated Tile Request signal
 * 2 shared control signals reset and enable
@@ -20,3 +20,9 @@ This is very much WIP, I will add more documentation soon, to learn about what t
 
 ![Tile Layout](Layout.png)
 
+#Example Tiles
+* Proto Tile - For making soldered prototypes/connector patches
+* Pmod Tile - For adapting tile connections to Pmods (Triple Dmod)
+* BreadBoard Tile - For experimental breadboarding
+* 7-Segment Tile - Triple digit 7 segment display
+* VGA Tile - To output Analogue VGA Video
