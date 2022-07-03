@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="29" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -60,10 +60,10 @@
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="30" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
-<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="31" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
@@ -181,66 +181,73 @@
 <library name="amino">
 <packages>
 <package name="UTILE_LP">
-<smd name="P$1" x="-13.385" y="-15.24" dx="1.905" dy="0.635" layer="1" rot="R180"/>
+<smd name="P$1" x="-13.385" y="-15.24" dx="1.75" dy="0.6" layer="1" rot="R180"/>
 <wire x1="-12.53" y1="-16" x2="-12.53" y2="16" width="0.127" layer="21" style="shortdash"/>
 <wire x1="-12.53" y1="16" x2="-10.43" y2="16" width="0.127" layer="21" style="shortdash"/>
 <wire x1="-10.43" y1="16" x2="-10.43" y2="-16" width="0.127" layer="21" style="shortdash"/>
 <wire x1="-10.43" y1="-16" x2="-12.53" y2="-16" width="0.127" layer="21" style="shortdash"/>
-<smd name="P$2" x="-13.385" y="-13.97" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$3" x="-13.385" y="-12.7" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$4" x="-13.385" y="-11.43" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$5" x="-13.385" y="-10.16" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$6" x="-13.385" y="-8.89" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$7" x="-13.385" y="-7.62" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$8" x="-13.385" y="-6.35" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$9" x="-13.385" y="-5.08" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$10" x="-13.385" y="-3.81" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$11" x="-13.385" y="-2.54" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$12" x="-13.385" y="-1.27" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$13" x="-13.385" y="0" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$14" x="-13.385" y="1.27" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$15" x="-13.385" y="2.54" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$16" x="-13.385" y="3.81" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$17" x="-13.385" y="5.08" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$18" x="-13.385" y="6.35" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$19" x="-13.385" y="7.62" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$20" x="-13.385" y="8.89" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$21" x="-13.385" y="10.16" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$22" x="-13.385" y="11.43" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$23" x="-13.385" y="12.7" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$24" x="-13.385" y="13.97" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$25" x="-13.385" y="15.24" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$26" x="-9.575" y="-15.24" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$27" x="-9.575" y="-13.97" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$28" x="-9.575" y="-12.7" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$29" x="-9.575" y="-11.43" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$30" x="-9.575" y="-10.16" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$31" x="-9.575" y="-8.89" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$32" x="-9.575" y="-7.62" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$33" x="-9.575" y="-6.35" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$34" x="-9.575" y="-5.08" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$35" x="-9.575" y="-3.81" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$36" x="-9.575" y="-2.54" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$37" x="-9.575" y="-1.27" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$38" x="-9.575" y="0" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$39" x="-9.575" y="1.27" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$40" x="-9.575" y="2.54" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$41" x="-9.575" y="3.81" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$42" x="-9.575" y="5.08" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$43" x="-9.575" y="6.35" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$44" x="-9.575" y="7.62" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$45" x="-9.575" y="8.89" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$46" x="-9.575" y="10.16" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$47" x="-9.575" y="11.43" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$48" x="-9.575" y="12.7" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$49" x="-9.575" y="13.97" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$50" x="-9.575" y="15.24" dx="1.905" dy="0.635" layer="1" rot="R180"/>
-<wire x1="-18.5" y1="25" x2="25.5" y2="25" width="0.127" layer="51" style="shortdash"/>
+<smd name="P$2" x="-13.385" y="-13.97" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$3" x="-13.385" y="-12.7" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$4" x="-13.385" y="-11.43" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$5" x="-13.385" y="-10.16" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$6" x="-13.385" y="-8.89" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$7" x="-13.385" y="-7.62" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$8" x="-13.385" y="-6.35" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$9" x="-13.385" y="-5.08" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$10" x="-13.385" y="-3.81" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$11" x="-13.385" y="-2.54" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$12" x="-13.385" y="-1.27" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$13" x="-13.385" y="0" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$14" x="-13.385" y="1.27" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$15" x="-13.385" y="2.54" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$16" x="-13.385" y="3.81" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$17" x="-13.385" y="5.08" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$18" x="-13.385" y="6.35" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$19" x="-13.385" y="7.62" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$20" x="-13.385" y="8.89" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$21" x="-13.385" y="10.16" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$22" x="-13.385" y="11.43" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$23" x="-13.385" y="12.7" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$24" x="-13.385" y="13.97" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$25" x="-13.385" y="15.24" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$26" x="-9.575" y="-15.24" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$27" x="-9.575" y="-13.97" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$28" x="-9.575" y="-12.7" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$29" x="-9.575" y="-11.43" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$30" x="-9.575" y="-10.16" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$31" x="-9.575" y="-8.89" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$32" x="-9.575" y="-7.62" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$33" x="-9.575" y="-6.35" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$34" x="-9.575" y="-5.08" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$35" x="-9.575" y="-3.81" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$36" x="-9.575" y="-2.54" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$37" x="-9.575" y="-1.27" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$38" x="-9.575" y="0" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$39" x="-9.575" y="1.27" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$40" x="-9.575" y="2.54" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$41" x="-9.575" y="3.81" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$42" x="-9.575" y="5.08" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$43" x="-9.575" y="6.35" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$44" x="-9.575" y="7.62" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$45" x="-9.575" y="8.89" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$46" x="-9.575" y="10.16" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$47" x="-9.575" y="11.43" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$48" x="-9.575" y="12.7" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$49" x="-9.575" y="13.97" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$50" x="-9.575" y="15.24" dx="1.75" dy="0.6" layer="1" rot="R180"/>
+<wire x1="-24.5" y1="25" x2="25.5" y2="25" width="0.127" layer="51" style="shortdash"/>
 <wire x1="25.5" y1="25" x2="25.5" y2="-25" width="0.127" layer="51" style="shortdash"/>
-<wire x1="25.5" y1="-25" x2="-18.5" y2="-25" width="0.127" layer="51" style="shortdash"/>
-<wire x1="-18.5" y1="-25" x2="-18.5" y2="25" width="0.127" layer="51" style="shortdash"/>
+<wire x1="25.5" y1="-25" x2="-24.5" y2="-25" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-24.5" y1="-25" x2="-24.5" y2="25" width="0.127" layer="21" style="shortdash"/>
 <pad name="0V@1" x="22.5" y="22" drill="2.5" diameter="5"/>
 <pad name="0V@2" x="22.5" y="-22" drill="2.5" diameter="5"/>
+<hole x="-11.48" y="14.5" drill="0.65"/>
+<hole x="-11.48" y="-14.5" drill="0.65"/>
+<wire x1="25.4" y1="-19" x2="6.559015625" y2="-19" width="0.127" layer="22" style="shortdash"/>
+<wire x1="6.559015625" y1="-19" x2="6" y2="-18.440984375" width="0.127" layer="22" style="shortdash" curve="-90"/>
+<wire x1="6" y1="-18.440984375" x2="6" y2="18.440984375" width="0.127" layer="22" style="shortdash"/>
+<wire x1="6" y1="18.440984375" x2="6.559015625" y2="19" width="0.127" layer="22" style="shortdash" curve="-90"/>
+<wire x1="6.559015625" y1="19" x2="25.4" y2="19" width="0.127" layer="22" style="shortdash"/>
 </package>
 <package name="UTILE_LP_T">
 <smd name="P$1" x="-13.385" y="-15.24" dx="1.905" dy="0.635" layer="16"/>
@@ -297,12 +304,59 @@
 <smd name="P$48" x="-9.575" y="12.7" dx="1.905" dy="0.635" layer="16"/>
 <smd name="P$49" x="-9.575" y="13.97" dx="1.905" dy="0.635" layer="16"/>
 <smd name="P$50" x="-9.575" y="15.24" dx="1.905" dy="0.635" layer="16"/>
-<wire x1="-18.5" y1="24.9" x2="25.5" y2="24.9" width="0.127" layer="21"/>
-<wire x1="25.5" y1="24.9" x2="25.5" y2="-24.9" width="0.127" layer="21"/>
-<wire x1="25.5" y1="-24.9" x2="-18.5" y2="-24.9" width="0.127" layer="21"/>
-<wire x1="-18.5" y1="-24.9" x2="-18.5" y2="24.9" width="0.127" layer="21"/>
-<pad name="0V@1" x="22.5" y="22" drill="2.5" diameter="5"/>
-<pad name="0V@2" x="22.5" y="-22" drill="2.5" diameter="5"/>
+<wire x1="-24.25" y1="24.75" x2="25.5" y2="24.75" width="0" layer="21"/>
+<wire x1="25.5" y1="24.75" x2="25.5" y2="-24.75" width="0" layer="21"/>
+<wire x1="25.5" y1="-24.75" x2="-24.25" y2="-24.75" width="0" layer="21"/>
+<wire x1="-24.25" y1="-24.75" x2="-24.25" y2="24.75" width="0" layer="21"/>
+<pad name="0V@1" x="22.5" y="22" drill="2.6" diameter="5"/>
+<pad name="0V@2" x="22.5" y="-22" drill="2.6" diameter="5"/>
+<hole x="-11.48" y="14.5" drill="0.65"/>
+<hole x="-11.48" y="-14.5" drill="0.65"/>
+<wire x1="25.4" y1="-19" x2="6.353553125" y2="-19" width="0.127" layer="22" style="shortdash"/>
+<wire x1="6.353553125" y1="-19" x2="6" y2="-18.646446875" width="0.127" layer="22" style="shortdash" curve="-90"/>
+<wire x1="6" y1="-18.646446875" x2="6" y2="18.646446875" width="0.127" layer="22" style="shortdash"/>
+<wire x1="6" y1="18.646446875" x2="6.353553125" y2="19" width="0.127" layer="22" style="shortdash" curve="-90"/>
+<wire x1="6.353553125" y1="19" x2="25.4" y2="19" width="0.127" layer="22" style="shortdash"/>
+<polygon width="0.127" layer="29">
+<vertex x="19.5" y="-20.5"/>
+<vertex x="19.5" y="-23.4" curve="-90"/>
+<vertex x="19" y="-23.9"/>
+<vertex x="-22.819928125" y="-23.9" curve="-90"/>
+<vertex x="-23.5" y="-23.219928125"/>
+<vertex x="-23.5" y="23.219928125" curve="-90"/>
+<vertex x="-22.819928125" y="23.9"/>
+<vertex x="19" y="23.9" curve="-90"/>
+<vertex x="19.5" y="23.4"/>
+<vertex x="19.5" y="20.5" curve="90"/>
+<vertex x="21" y="19"/>
+<vertex x="25.5" y="19"/>
+<vertex x="25.5" y="24.75"/>
+<vertex x="-24.25" y="24.75"/>
+<vertex x="-24.25" y="-24.75"/>
+<vertex x="25.5" y="-24.75"/>
+<vertex x="25.5" y="-19"/>
+<vertex x="21" y="-19" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="19.5" y="-20.5"/>
+<vertex x="19.5" y="-23.4" curve="-90"/>
+<vertex x="19" y="-23.9"/>
+<vertex x="-22.819928125" y="-23.9" curve="-90"/>
+<vertex x="-23.5" y="-23.219928125"/>
+<vertex x="-23.5" y="23.219928125" curve="-90"/>
+<vertex x="-22.819928125" y="23.9"/>
+<vertex x="19" y="23.9" curve="-90"/>
+<vertex x="19.5" y="23.4"/>
+<vertex x="19.5" y="20.5" curve="90"/>
+<vertex x="21" y="19"/>
+<vertex x="25.5" y="19"/>
+<vertex x="25.5" y="24.75"/>
+<vertex x="-24.25" y="24.75"/>
+<vertex x="-24.25" y="-24.75"/>
+<vertex x="25.5" y="-24.75"/>
+<vertex x="25.5" y="-19"/>
+<vertex x="21" y="-19" curve="90"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -341,7 +395,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="UTILE_LP">
+<deviceset name="UTILE_LP" prefix="T">
 <gates>
 <gate name="G$1" symbol="UTILE_LP" x="0" y="0"/>
 </gates>
@@ -428,14 +482,14 @@
 </class>
 </classes>
 <parts>
-<part name="U$1" library="amino" deviceset="UTILE_LP" device="CARRIER_SMD_MALE_1.27"/>
+<part name="T1" library="amino" deviceset="UTILE_LP" device="TILE"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="27.94" y="33.02"/>
+<instance part="T1" gate="G$1" x="30.48" y="35.56"/>
 </instances>
 <busses>
 </busses>

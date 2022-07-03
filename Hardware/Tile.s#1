@@ -337,7 +337,7 @@
 <pin name="TR" x="15.24" y="10.16" visible="pin" length="middle" rot="R180"/>
 <pin name="PRG/RS" x="-15.24" y="7.62" visible="pin" length="middle" direction="oc"/>
 <pin name="EN/DN" x="15.24" y="7.62" visible="pin" length="middle" direction="oc" rot="R180"/>
-<pin name="GND" x="0" y="-17.78" length="middle" direction="sup" rot="R90"/>
+<pin name="GND" x="0" y="-17.78" visible="pin" length="middle" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
