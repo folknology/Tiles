@@ -16,9 +16,11 @@ This is very much WIP, we will add more documentation soon, to learn about what 
 
 ![Tile Schematic](schematic.png)
 
-__Please note__ that the male headers are 1.27mm pitch dual rows of 25 pins. The odd dimensions of the tile stem from a 50mm square, which has been trimmed to allow enough clearance when combined with other tiles in situ.
+__Please note__ that the male headers are 1.27mm pitch dual rows of 25 pins. The odd dimensions of the tile stem from a 50mm square, which has been trimmed (0.25mm) to allow enough clearance when combined with other tiles in situ.
 
 ![Tile Layout](Layout.png)
+
+__Notes__ Components are added to the same side as the male header which is surface mounted, this means that the components are sandwiched between the tile itself and the tile carrier, in turn this means that all components outside the dotted aperture area need to be less than 6mm in height. Those inside the marked off aperture can be significantly taller.
 
 #Example Tiles
 TBA
